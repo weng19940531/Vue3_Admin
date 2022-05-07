@@ -8,10 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.1.11",
     "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
-    "vite": "^2.9.7"
+    "sass": "^1.51.0",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.7",
+    "vite-plugin-inspect": "^0.5.0"
   }
 }

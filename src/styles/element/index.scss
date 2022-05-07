@@ -1,0 +1,11 @@
+// reference: https://element-plus.org/zh-CN/guide/theming.html#通过-scss-变量
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': green
+    ),
+    'success': (
+      'base': gray
+    )
+  )
+);
