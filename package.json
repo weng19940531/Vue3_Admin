@@ -3,13 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 4000",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "element-plus": "^2.1.11",
-    "vue": "^3.2.25"
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.14",
+    "store": "^2.0.12",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
